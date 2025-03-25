@@ -1,8 +1,8 @@
-📱 Layout 1920x 1080px com Animação Interativa
+# 📱 Layout 1920x 1080px com Animação Interativa
 
 Este projeto apresenta um layout responsivo de 1920x 1080px, desenvolvido com HTML, CSS e JavaScript puro, sem o uso de bibliotecas externas.
 
-🚀 Funcionalidades
+## 🚀 Funcionalidades
 
 ✅ Estrutura simples e leve, utilizando apenas HTML, CSS e JS
 
