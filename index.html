@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Combos promocionais </title>
+    <link rel="stylesheet" href="assets/css/style.css">
+   
+</head>
+
+<body>
+  <div class="container">
+    <div class="header">
+      <img src="assets/image/Mc Café.png" alt="McCafé" class="mccafelogo">
+      <div class="title">Combos Irresistíveis</div>
+    </div>
+    <div class="container-combos">  
+      <div class="combo-medialuna">
+        <div class="combo-info">
+          <div class="combos">Medialuna + Café<br>Espresso 50 ml</div>
+          <div class="combo-price">
+            <span class="real">R$</span>
+            <span class="currency"> 16</span><span class="cents">,90</span>
+            <span class="each">cada <br> combo</span>
+          </div>
+        </div>
+        <div class="combo-image">
+          <img src="assets/image/medialuna-h.png" alt="Medialuna e Café Espresso">
+        </div>
+      </div>  
+      <div class="combo-folhado" >
+        <div class="combo-info-left">
+          <div class="combos">Folhado com<br>Tomate e Queijo<br>+ Smoothie de<br>Uva 400 ml</div>
+          <div class="combo-price">
+            <span class="real">R$</span>
+            <span class="currency left"> 22</span><span class="cents left">,90</span>
+            <span class="each left">cada <br>combo</span>
+          </div>
+        </div>  
+        <div class="combo-image-left">
+          <img src="assets/image/folhado-h.png" alt="Folhado com Tomate e Queijo + Smoothie de Uva">
+        </div>
+      </div>
+      <div class="combo-waffle" >
+        <div class="combo-info right">
+          <div class="combos">Waffle de Pão<br>de Queijo<br>+ Café Chantilly</div>
+          <div class="combo-price">
+            <span class="real">R$</span>
+            <span class="currency right"> 21</span><span class="cents right">,90</span>
+            <span class="each right">cada <br> combo</span>
+          </div>
+        </div>
+        <div class="combo-image">
+          <img src="assets/image/waffle-h.png" alt="Waffle de Pão de Queijo + Café Chantilly">
+        </div>
+      </div>
+    </div>
+    <div class="footer" >                                                                                         
+      <div class="certification">
+        <div class="logo">
+          <img src="assets/image/logo.png" alt="Certificação de Café Sustentável" >
+        </div>
+        <p class="certification-text">Café 100% certificado,<br>produzido de forma<br>sustentável.</p>
+      </div>
+      <div class="products">    
+        <p >PRODUTOS DISPONÍVEIS O DIA TODO NESTE RESTAURANTE. PREÇO DESCRITO ACIMA VÁLIDO NESTE RESTAURANTE. CONSULTE INFORMAÇÕES NAS TABELAS NUTRICIONAIS FIXADAS  NOS RESTAURANTES E NO NOSSO SITE. FOTO MERAMENTE ILUSTRATIVA. Os produtos podem ser servidos em recipientes <br> diferentes dos apresentados na imagem. Mais informações, como  composição, alérgenos e informações nutricionais dos produtos, consulte a tabela disponível nos restaurantes e em https://www.mcdonalds.com.br/cardapio</p>
+      </div>    
+    </div>
+    <div id="confirmModal" class="modal">
+      <div class="modal-content">
+        <h2>Confirmação de Pedido</h2>
+        <p id="modalMessage">Deseja adicionar este combo ao seu pedido?</p>
+        <div class="modal-buttons">
+          <button class="btn-confirm" id="confirmButton">Confirmar</button>
+          <button class="btn-cancel" id="cancelButton">Cancelar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script defer src="assets/js/script.js"></script>
+</body>  

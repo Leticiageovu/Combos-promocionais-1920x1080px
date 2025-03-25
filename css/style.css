@@ -1,0 +1,181 @@
+@font-face {
+    font-family: 'Speedee-Bold';
+    src: url('../assets/fonts/Speedee.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Speedee-Condensed-Bold';
+    src: url('../assets/fonts/SpeedeeCd_Lt.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Speedee-Regular';
+    src: url('../assets/fonts/Speedee_Rg.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+:root {
+    --font-primary: 'Speedee-Bold', sans-serif;
+    --font-secondary: 'Speedee-Condensed-Bold', sans-serif;
+    --font-heading: 'Speedee-Regular', sans-serif;
+}
+
+body {
+    background-color: #f8f5f2;
+    margin: 0;
+    padding: 0;
+    color: #461e00;
+}
+.container {
+    position: relative
+}
+.header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.mccafelogo {
+    width: 380px;
+   
+}
+.title {
+    font-family: var(--font-primary);
+    font-size: xxx-large;
+    color: #461e00;
+}
+.combo-medialuna{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 3%;
+    
+}
+.combo-image{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    width: 82%;
+}
+.combo-info {
+    position: absolute;
+    left: 41%;
+    top: 15%;
+    
+}
+.combos {
+   font-family: var(--font-primary);
+   font-size: 210%;
+   text-align: justify;
+}
+.combo-price {
+    font-size: 170%;
+    display: flex;
+    flex-wrap: wrap;
+    font-family: var(--font-secondary);
+}
+.real{
+    font-size: 215%;
+}
+.currency{
+    font-size: 375%;
+    position: absolute;
+    top: 45%;
+    left: 23%;
+}
+.cents{
+    font-size: 180%;
+    position: absolute;
+    top: 84px;
+    left: 51%;
+    text-decoration: underline;
+}
+.each{
+   text-align: center;
+    position: absolute;
+    top: 85%;
+    left: 51%;
+    line-height: 85%;
+}
+.combo-folhado{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 0%;
+    padding: 0%;
+}
+.combo-image-left{
+    display: flex;
+    flex-wrap: wrap;
+    width: 77%;
+}
+.combo-info-left{
+    position: absolute;
+    left: 9%;
+    top: 38%;
+}
+.currency.left{
+    top: 65%;
+    left: 23%;
+}
+.cents.left{
+    top: 172px;
+    left: 57%;
+}
+.each.left{
+    top: 91%;
+    left: 57%;
+}
+.combo-waffle{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.combo-image{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    width: 80%;
+}
+.combo-info.right {
+    position: absolute;
+    left: 44%;
+    top: 75%;
+}
+.currency.right{
+    top: 57%;
+    left: 23%;
+}
+.cents.right{
+    top: 125px;
+    left: 53%;
+}
+.each.right{
+    left: 53%;
+    top: 89%;
+}
+.combo-image .combo-image-left  img{
+    width: 60%;
+}
+.certification{
+    position: absolute;
+    left: 9%;
+    top: 81%;
+}
+
+.certification-text{
+    position: absolute;
+    top: 68%;
+    text-align: center;
+    font-size: smaller;                                                                                                                                                                                                                                                                                                                                                                                 
+}
+.products{
+    padding: 0px 96px;
+    font-size: 62%;
+    text-align: left;
+}
